@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FLORAL BOUTIQUE</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">
+</head>
+<body>
+	<div class="wrapper" id="home">
+		<header class="header">
+			<div class="logo__box logo__box_header">
+				<img src="img/logo.svg" alt="" class="logo">
+			</div>
+			<nav class="nav nav__header">
+				<div class="nav__item">Каталог</div>
+				<div class="nav__item">Підписка</div>
+				<div class="nav__item">Відгуки</div>
+				<div class="nav__item">Контакти</div>
+			</nav>
+			<div class="hamburger-menu">
+			  	<input id="menu__toggle" type="checkbox" />
+			  	<label class="menu__btn" for="menu__toggle">
+			    	<span></span>
+			  	</label>
+			  	<ul class="menu__box">
+			    	<li><a class="menu__item" href="#">Каталог</a></li>
+			    	<li><a class="menu__item" href="#">Підписка</a></li>
+			    	<li><a class="menu__item" href="#">Відгуки</a></li>
+			    	<li><a class="menu__item" href="#">Контакти</a></li>
+			  	</ul>
+			</div>
+			<p class="header__social">+ 38 (067) 544 54 02</p>
+			<a href="#" class="shopping__basket">
+				<img src="img/basket.svg" alt="" class="basket">
+				<span class="basket-count" data-count="0"></span>
+			</a>
+		</header>		
+		<div class="banner">
+			<p class="banner__text">Каталог</p>
+		</div>
+		<div class="filter__box" id="filter sort">
+			<ul class="filter">
+				<li class="filter__item activ" data-filter="all"><a href="#filter">Всі</a></li>
+				<li class="filter__item" data-filter="starting-prise"><a href="#filter">0 - 1500</a></li>
+				<li class="filter__item" data-filter="average-prise"><a href="#filter">1500 - 3000</a></li>
+				<li class="filter__item high" data-filter="high-prise"><a href="#filter">3000 - більше</a></li>
+			</ul>
+			<div class="sort-condition">
+			    <div class="dropdown">
+			        <button class="dropbtn">Сортування за<span class="arrow">&#9660;</span></button>
+			        <div class="dropdown-content">
+			            <a href="#sort" id="default">За замовчуванням</a>
+			            <a href="#sort" id="lowToHigh">Від низької до високої ціни</a>
+			            <a href="#sort" id="highToLow">Від високої до низької ціни</a>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="catalog">
+			<div class="tovar" data-product-id="1" data-price="1500">
+				<img src="img/1.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Весна»</h3>
+				<p class="tovar__text">1 500 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+			<div class="tovar" data-product-id="2" data-price="3500">
+				<img src="img/2.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Визнання»</h3>
+				<p class="tovar__text">3 500 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+			<div class="tovar" data-product-id="3" data-price="2700">
+				<img src="img/3.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Сюрприз»</h3>
+				<p class="tovar__text">2 700 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+			<div class="tovar" data-product-id="4" data-price="2600">
+				<img src="img/4.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Квітель»</h3>
+				<p class="tovar__text">2 600 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+			<div class="tovar" data-product-id="5" data-price="1800">
+				<img src="img/5.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Сухоцвіти»</h3>
+				<p class="tovar__text">1 800 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+			<div class="tovar" data-product-id="6" data-price="2900">
+				<img src="img/6.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Ніжність»</h3>
+				<p class="tovar__text">2 900 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+			<div class="tovar" data-product-id="7" data-price="3300">
+				<img src="img/7.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Яскравість»</h3>
+				<p class="tovar__text">3 300 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+			<div class="tovar" data-product-id="8" data-price="4200">
+				<img src="img/8.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Любов»</h3>
+				<p class="tovar__text">4 200 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+			<div class="tovar" data-product-id="9" data-price="4800">
+				<img src="img/9.png" alt="" class="tovar__image">
+				<h3 class="tovar__title">Букет «Ласка»</h3>
+				<p class="tovar__text">4 800 грн</p>
+				<button type="button" class="submit">Замовити</button>
+			</div>
+		</div>
+		<div class="show__more">
+			<button type="button" class="show__more_button">Дивитись ще</button>
+		</div>
+		<footer class="footer">
+			<div class="logo__box">
+				<a href="#home"><img src="img/logo.svg" alt="" class="logo"></a>
+			</div>
+			<nav class="nav nav__footer">
+				<div class="nav__item">Каталог</div>
+				<div class="nav__item">Підписка</div>
+				<div class="nav__item">Відгуки</div>
+				<div class="nav__item">Контакти</div>
+			</nav>
+			<p class="footer__social">+ 38 (067) 544 54 02</p>
+			<div class="social">
+				<a href="https://www.instagram.com/accounts/signup/email/" class="socia__media">
+					<img src="img/instagram.svg" alt="" class="media__icon instagram">
+					</img>
+				</a>
+				<a href="https://ru-ru.facebook.com/reg/" class="socia__media">
+					<img src="img/facebook.svg" alt="" class="media__icon facebook">
+					</img>
+				</a>
+				<a href="https://ru.pinterest.com/" class="socia__media">
+					<img src="img/pinterest.svg" alt="" class="media__icon pinterest">
+					</img>
+				</a>
+			</div>
+		</footer>
+		<div class="modalBackground">
+		    <div class="modalActive">
+		        <div class="modalClose">
+		            <img src="img/close.svg" alt="close">
+		        </div>
+		        <div class="modalWindow">
+		            <img src="" alt="Product Image" class="modal__image">
+		            <h3 class="modal__title"></h3>
+		            <p class="modal__price"></p>
+		            <button class="submit">Замовити</button>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<script src="js/style.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+@media (min-width: 320px) and (max-width: 450px) {
+	.wrapper {
+		padding-top: 30px;
+	}
+	.catalog,
+	.wrapper {
+	    row-gap: 20px;
+	}
+	.header {
+		position: fixed;
+	}
+	.logo__box_header,
+	.shopping__basket {
+		position: fixed;
+		top: 15px;
+	}
+	.logo__box_header {
+		left: 15px;
+		width: 35%;
+		height: 39px;
+		align-items: center;
+	}
+	.logo,
+	.basket {
+		width: 100%;
+	}
+	.shopping__basket {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 39px;
+		width: 29px;
+	}
+	.filter,
+	.sort-condition,
+	.catalog {
+		justify-content: center;
+	}
+	.nav__header,
+	.header__social {
+		display: none;
+	}
+	.footer__social,
+	.hamburger-menu {
+		display: block;
+	}
+	.filter__item {
+		text-align: center;
+	}
+	.high {
+		width: 180px;
+	}
+	.banner,
+	.sort-condition,
+	.tovar,
+	.show__more_button {
+		width: 100%;
+	}
+	.banner {
+		height: 75px;
+	}
+	.basket-count {
+	    top: -2px; 
+	    right: -6px; 
+	}
+	.banner__text {
+		font-size: 48px;
+		grid-column: 1/13;
+		justify-self: center;
+	}
+	.submit {
+	    width: 80%;
+	    height: 55px;
+	}
+	.modalActive {
+	    padding: 45px;
+	}
+	.modalClose img {
+	    width: 25px;
+	}
+	.filter__box {
+		height: 100%;
+	}
+	.filter__box,
+	.filter,
+	.sort-condition,
+	.nav__footer,
+	.footer {
+		flex-direction: column;
+	}
+	.footer {
+		padding: 20px;
+		height: 370px;
+		row-gap: 20px;
+		justify-content: space-evenly;
+	}
+}
+@media (min-width: 320px) and (max-width: 375px) {
+	.menu__btn {
+	  	left: clamp(260px, calc(260px + ((100vw - 320px) / 55) * 55), 315px);
+	}
+	.menu__box {
+		margin-left: clamp(70px, calc(70px + ((100vw - 320px) / 55) * 55), 125px);
+	}
+	.shopping__basket {
+		left: 52.5%;
+	}
+}	
+@media (min-width: 375px) and (max-width: 425px) {
+	.menu__btn {
+	  	left: clamp(315px, calc(315px + ((100vw - 375px) / 50) * 50), 365px);
+	}
+	.menu__box {
+		margin-left: clamp(125px, calc(125px + ((100vw - 320px) / 50) * 50), 175px);
+	}
+	.shopping__basket {
+		left: 55%;
+	}
+}	
+@media (min-width: 425px) and (max-width: 450px) {	
+	.menu__btn {
+	  	left: clamp(365px, calc(365px + ((100vw - 425px) / 25) * 25), 390px);
+	}  
+	.menu__box {
+		margin-left: clamp(175px, calc(175px + ((100vw - 320px) / 25) * 25), 200px);
+	}	
+	.shopping__basket {
+		left: 57.5%;
+	}
+}	
